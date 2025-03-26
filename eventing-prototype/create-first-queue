@@ -1,0 +1,4 @@
+#!/bin/bash
+
+QUEUE_NAME=first-queue
+aws --endpoint-url=http://localhost:4566 sqs create-queue --queue-name $QUEUE_NAME --region sa-east-1
